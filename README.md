@@ -13,7 +13,9 @@ composer create-project shy/swostar-frame:dev-master swostar-frame
 
 ## 应用
 配置服务器信息
-文件目录 config
+```php
+config/server.php
+```
 
 首先启动路由服务器 
 ```php
