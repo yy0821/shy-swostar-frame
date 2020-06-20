@@ -1,0 +1,25 @@
+{
+    "name": "shy/swostar-frame",
+    "description": "基于swoole的简易服务器框架",
+    "license": "MIT",
+    "type": "project",
+    "authors": [
+        {
+            "name": "xiaobei",
+            "email": "570650116@qq.com"
+        }
+    ],
+    "require": {
+        "firebase/php-jwt": "^5.2",
+        "shy/swostar": "dev-master",
+        "shy/swocloud": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app"
+        },
+        "files": [
+            "common/common.php"
+        ]
+    }
+}
