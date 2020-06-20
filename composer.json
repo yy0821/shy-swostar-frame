@@ -11,8 +11,7 @@
     ],
     "require": {
         "firebase/php-jwt": "^5.2",
-        "shy/swostar": "dev-master",
-        "shy/swocloud": "dev-master"
+        "shy/swostar": "dev-master"
     },
     "autoload": {
         "psr-4": {
