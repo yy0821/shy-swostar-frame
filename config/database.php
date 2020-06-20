@@ -5,9 +5,9 @@ return [
         "port" => '3306',
         "dbName" => 'swoole',
         "username" => 'root',
-        "password" => '592e1f556107171d',
+        "password" => '',
         "charset" => '',
-        "prefix" => 'fd_',
+        "prefix" => '',
     ],
     "redis"=>[
         "host" => "127.0.0.1",
